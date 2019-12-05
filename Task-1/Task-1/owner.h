@@ -5,7 +5,7 @@ public:
 	std::string name;
 	std::string addres;
 	bool allowedToDrive;
-	owner();
+	owner(std::string nameIn,std::string addresIn,bool allowedToDriveIn);
 	void print();
 	~owner();
 };

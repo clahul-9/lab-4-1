@@ -3,7 +3,7 @@ class engine
 {
 	
 public:
-	engine();
+	engine(float sizeInLiters, int numberOfCylinders);
 
 	float sizeInLiters;
 	int numberOfCylinders;

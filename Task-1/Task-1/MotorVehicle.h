@@ -8,7 +8,7 @@ class MotorVehicle
 	std::string model;
 	float *tierDiameters = new float[numbersOfTiers];
 public:
-	MotorVehicle();
+	MotorVehicle(engine motor,Body body,owner person,int numbersOfTiers,string model);
 	void print();
 	virtual ~MotorVehicle();
 };

@@ -2,10 +2,10 @@
 #include <iostream>
 
 using namespace std;
-engine::engine()
+engine::engine(float sizeInLitersIn, int numberOfCylindersIn)
 {
-	float sizeInLiters;
-	int numberOfCylinders;
+	float sizeInLiters = sizeInLiters;
+	int numberOfCylinders=numberOfCylinders;
 }
 void engine::print() {
 	cout << "size In Liters" << sizeInLiters << "\nnumber Of Cylinders" << numberOfCylinders << endl;

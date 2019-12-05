@@ -3,14 +3,14 @@
 #include <iostream>
 using namespace std;
 
-Body::Body()
+Body::Body(string colorIn,float whidthIn,float heightIn)
 {
-	std::string color;
-	float width, height;
+	string color=colorIn;
+	float width=whidthIn, height=heightIn;
 }
 
 void Body::print() {
-	cout << "collor:" << color << "\nwhidth:" << width << "\nheight" << height << endl;
+	cout << "color:" << color << "\nwhidth:" << width << "\nheight" << height << endl;
 }
 Body::~Body()
 {

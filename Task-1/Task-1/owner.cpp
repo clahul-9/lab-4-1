@@ -3,11 +3,11 @@
 #include <iostream>
 
 using namespace std;
-owner::owner()
+owner::owner(string namnIn, string addresIn, bool allowedToDriveIn)
 {
-	std::string name;
-	std::string addres;
-	bool allowedToDrive;
+	string name=namnIn;
+	string addres=addresIn;
+	bool allowedToDrive=allowedToDriveIn;
 }
 
 void owner::print() {
