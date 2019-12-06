@@ -8,7 +8,7 @@
 
 using namespace std;
 
-MotorVehicle::MotorVehicle(engine motorIn, Body bodyIn, owner personIn, int numbersOfTiersIn, string modelIn):engine(motorIn)
+MotorVehicle::MotorVehicle(engine motorIn, Body bodyIn, owner personIn, int numbersOfTiersIn, string modelIn):motor(motorIn),body(bodyIn),person(personIn)
 {
 	engine motor=motorIn;
 	Body body=bodyIn;
@@ -40,4 +40,5 @@ void MotorVehicle::print() {
 
 MotorVehicle::~MotorVehicle()
 {
+		delete tierDiameters;
 }

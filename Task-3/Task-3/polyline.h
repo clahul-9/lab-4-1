@@ -3,7 +3,7 @@
 class polyline
 {
 	int maxpPoints;
-	Point2d *points;
+	Point2d *(*points);
 public:
 	//constructors
 	polyline();
@@ -11,10 +11,12 @@ public:
 	~polyline();
 
 	//metods
-	Point2d retrievePoint(int index);
-	void newPoint(Point2d  p);
-	bool point
-
-
+	Point2d *retrievePoint(int index);
+	void newPoint(Point2d  *p);
+	bool containsPoints();
+	void removeLast();
+	int nrOfPoints();
+	float leangtOfPolyLine();
+	void print();
 };
 

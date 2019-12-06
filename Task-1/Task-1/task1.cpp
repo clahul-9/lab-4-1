@@ -10,21 +10,21 @@ using namespace std;
 int main() {
 //varianla
 	//owner
-	string nameIn;
-	string addreIn;
-	bool allowedToDrive;
+	string nameIn="";
+	string addreIn="";
+	bool allowedToDrive=false;
 	//engine
-	float sizeInLitersIn;
-	int numberOfCylindersIn;
+	float sizeInLitersIn=0;
+	int numberOfCylindersIn=0;
 	//body
-	string colorIn;
-	float widthIn, heightIn;
+	string colorIn="";
+	float widthIn=0, heightIn=0;
 	//motorVehicle
 	//engine motorIn();
 	//Body bodyIn;
 	//owner personIn;
-	int numbersOfTiersIn;
-	string modelIn;
+	int numbersOfTiersIn=0;
+	string modelIn="";
 
 //asking for information
 	//owner
@@ -46,4 +46,6 @@ int main() {
 
 	vehicle.print();
 	
+	cout << endl << endl;
+	system("pause");
 }
