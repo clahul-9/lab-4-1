@@ -29,5 +29,8 @@
     <ClCompile Include="..\..\Task-2\Task-2\Point2d.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="task3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

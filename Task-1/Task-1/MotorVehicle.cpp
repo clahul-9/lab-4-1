@@ -8,7 +8,7 @@
 
 using namespace std;
 
-MotorVehicle::MotorVehicle(engine motorIn, Body bodyIn, owner personIn, int numbersOfTiersIn, string modelIn)
+MotorVehicle::MotorVehicle(engine motorIn, Body bodyIn, owner personIn, int numbersOfTiersIn, string modelIn):engine(motorIn)
 {
 	engine motor=motorIn;
 	Body body=bodyIn;

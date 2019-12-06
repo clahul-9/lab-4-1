@@ -1,5 +1,5 @@
 #include "CardDeck.h"
-
+#include<iostream>
 
 
 CardDeck::CardDeck()
@@ -16,16 +16,14 @@ CardDeck::CardDeck()
 	}
 	while (amountOfCards<55)
 	{
+		std::cout << "joker: ";
 		Card d("joker", "joker");
 		deck[amountOfCards] = d;
 		amountOfCards++;
 	}
 }
 void CardDeck::print() {
-	for (Card e:deck)
-	{
-		e.print();
-	}
+	for (Card e:deck){e.print();}
 }
 
 

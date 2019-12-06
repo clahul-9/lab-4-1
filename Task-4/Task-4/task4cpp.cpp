@@ -5,6 +5,8 @@
 
 
 int main() {
-	CardDeck deck();
-	deck.print();
+	CardDeck deckOfCards;
+	deckOfCards.print();
+
+	system("pause");
 }
